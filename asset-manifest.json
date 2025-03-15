@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RVK/static/css/main.ce87fe4b.css",
-    "main.js": "/RVK/static/js/main.e4f0097a.js",
+    "main.js": "/RVK/static/js/main.3bab4795.js",
     "static/js/787.e480a1f7.chunk.js": "/RVK/static/js/787.e480a1f7.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/flaticon.svg?": "/RVK/static/media/flaticon.28ed193fd823e5c9eb6a.svg",
@@ -53,11 +53,11 @@
     "static/media/slick.woff": "/RVK/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/RVK/index.html",
     "main.ce87fe4b.css.map": "/RVK/static/css/main.ce87fe4b.css.map",
-    "main.e4f0097a.js.map": "/RVK/static/js/main.e4f0097a.js.map",
+    "main.3bab4795.js.map": "/RVK/static/js/main.3bab4795.js.map",
     "787.e480a1f7.chunk.js.map": "/RVK/static/js/787.e480a1f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce87fe4b.css",
-    "static/js/main.e4f0097a.js"
+    "static/js/main.3bab4795.js"
   ]
 }
