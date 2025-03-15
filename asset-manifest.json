@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RVK/static/css/main.fea173c2.css",
-    "main.js": "/RVK/static/js/main.90f14495.js",
+    "main.css": "/RVK/static/css/main.ce87fe4b.css",
+    "main.js": "/RVK/static/js/main.e4f0097a.js",
     "static/js/787.e480a1f7.chunk.js": "/RVK/static/js/787.e480a1f7.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/flaticon.svg?": "/RVK/static/media/flaticon.28ed193fd823e5c9eb6a.svg",
@@ -52,12 +52,12 @@
     "static/media/slick.ttf": "/RVK/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/RVK/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/RVK/index.html",
-    "main.fea173c2.css.map": "/RVK/static/css/main.fea173c2.css.map",
-    "main.90f14495.js.map": "/RVK/static/js/main.90f14495.js.map",
+    "main.ce87fe4b.css.map": "/RVK/static/css/main.ce87fe4b.css.map",
+    "main.e4f0097a.js.map": "/RVK/static/js/main.e4f0097a.js.map",
     "787.e480a1f7.chunk.js.map": "/RVK/static/js/787.e480a1f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea173c2.css",
-    "static/js/main.90f14495.js"
+    "static/css/main.ce87fe4b.css",
+    "static/js/main.e4f0097a.js"
   ]
 }
