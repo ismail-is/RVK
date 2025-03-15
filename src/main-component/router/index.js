@@ -29,6 +29,7 @@ import BlogDetailsLeftSiide from '../BlogDetailsLeftSiide/BlogDetailsLeftSiide'
 import BlogDetailsFull from '../BlogDetailsFull/BlogDetailsFull'
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
+import Products from '../Products/Products';
 
 
 const AllRoute = () => {
@@ -51,6 +52,7 @@ const AllRoute = () => {
           <Route path="service-s3" element={<ServicePages3 />} />
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
           <Route path="project" element={<ProjectPage />} />
+          {/* <Route path="project-single/:slug" element={<ProjectSingle />} /> */}
           <Route path="project-single/:slug" element={<ProjectSingle />} />
           <Route path="pricing" element={<PricingPage />} />
           <Route path="team" element={<TeamPage />} />
@@ -68,6 +70,7 @@ const AllRoute = () => {
           <Route path='blog-single-fullwidth/:slug' element={<BlogDetailsFull />} />
           <Route path='contact' element={<ContactPage />} />
           <Route path='404' element={<ErrorPage />} />
+          <Route path='Products' element={<Products />} />
         </Routes>
       </BrowserRouter>
 

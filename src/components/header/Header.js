@@ -41,7 +41,11 @@ const Header = (props) => {
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
-                                        <li className="menu-item-has-children">
+                                    <li><Link onClick={ClickHandler} to="/">Home</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/about">About</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/Products">Products</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                        {/* <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/">Home</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/home">Home style 1</Link></li>
@@ -51,9 +55,9 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/home-5">Home style 5</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home-6">Home style 6</Link></li>
                                             </ul>
-                                        </li>
-                                        <li><Link onClick={ClickHandler} to="/about">About</Link></li>
-                                        <li className="menu-item-has-children">
+                                        </li> */}
+                                        {/* <li><Link onClick={ClickHandler} to="/about">About</Link></li> */}
+                                        {/* <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/service">Service</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/service">Service Style 1</Link></li>
@@ -100,14 +104,14 @@ const Header = (props) => {
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                        </li> */}
+                                        {/* <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li> */}
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-2 col-2">
                                 <div className="header-right">
-                                    <div className="mini-cart">
+                                    {/* <div className="mini-cart">
                                         <button className="cart-toggle-btn" onClick={() => setcartState(!cartActive)}>
                                             {" "}
                                             <i className="fi flaticon-shopping-cart"></i>
@@ -152,8 +156,8 @@ const Header = (props) => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="header-search-form-wrapper">
+                                    </div> */}
+                                    {/* <div className="header-search-form-wrapper">
                                         <div className="cart-search-contact">
                                             <button onClick={() => setMenuState(!menuActive)} className="search-toggle-btn"><i
                                                 className={`fi ti-search ${menuActive ? "ti-close" : "fi "}`}></i></button>
@@ -168,7 +172,7 @@ const Header = (props) => {
                                                 </form>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="close-form">
                                         <Link onClick={ClickHandler} className="theme-btn" to="/contact">Get In Touch</Link>
                                     </div>

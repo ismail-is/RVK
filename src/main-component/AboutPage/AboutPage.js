@@ -8,7 +8,7 @@ import BlogSection from '../../components/BlogSection/BlogSection';
 import PricingSection from '../../components/PricingSection/PricingSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '../../images/logo-3.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 
 
 const AboutPage = () => {

@@ -59,8 +59,8 @@ const Footer = (props) => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/">Home</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about">about us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service">service</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/blog">blog</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/Products">Products</Link></li>
+                                    {/* <li><Link onClick={ClickHandler} to="/blog">blog</Link></li> */}
                                     <li><Link onClick={ClickHandler} to="/contact">contact us</Link></li>
                                 </ul>
                             </div>
@@ -92,8 +92,8 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2024 sailo by <Link onClick={ClickHandler} to="/">wpOceans</Link>. All
-                                Rights Reserved.</p>
+                            <p className="copyright"> Copyright &copy; 2025 RVK |  Powered By <a  href="https://brightmedia.tech/" target='_blank'> Bright Media</a>.
+                                </p>
                         </div>
                     </div>
                 </div>

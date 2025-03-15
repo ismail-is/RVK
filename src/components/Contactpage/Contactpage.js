@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <p>Pasushedde village,Bondel Mangaluru</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -33,8 +33,8 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>sailo@gmail.com</p>
-                                            <p>helloyou@gmail.com</p>
+                                            <p>rvksteelalloys@gmail.com</p>
+                                            {/* <p>helloyou@gmail.com</p> */}
                                         </div>
                                     </div>
                                 </div> 
@@ -47,8 +47,8 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <p>+91 8197 2561 35</p>
+                                            <p>+91 8722 0651 11</p>
                                         </div>
                                     </div>
                                 </div> 

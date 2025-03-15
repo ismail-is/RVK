@@ -9,9 +9,9 @@ const HeaderTopbar = (props) => {
                     <div className="col col-lg-7 col-md-8 col-sm-12 col-12">
                         <div className="contact-intro">
                             <ul>
-                                <li><i className="fi flaticon-email"></i>Sailo@gmail.com</li>
-                                <li><i className="fi flaticon-phone-call"></i> +888 (123) 869523</li>
-                                <li><i className="fi ti-location-pin"></i> New York – 1075 Firs Avenue</li>
+                                <li><i className="fi flaticon-email"></i>rvksteelalloys@gmail.com</li>
+                                <li><i className="fi flaticon-phone-call"></i>+91 8197 2561 35</li>
+                                <li><i className="fi ti-location-pin"></i> 5-57/4 Bodel Mangaluru</li>
                             </ul>
                         </div>
                     </div>
@@ -19,11 +19,11 @@ const HeaderTopbar = (props) => {
                         <div className="contact-info">
                             <ul>
                                 <li className="language">
-                                    <select name="language" id="language">
+                                    {/* <select name="language" id="language">
                                         <option value="">English</option>
                                         <option value="">Arabic</option>
                                         <option value="">France</option>
-                                    </select>
+                                    </select> */}
                                 </li>
                                 <li><Link to="/"><i className="ti-facebook"></i></Link></li>
                                 <li><Link to="/"><i className="ti-instagram"></i></Link></li>

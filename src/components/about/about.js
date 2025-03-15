@@ -37,32 +37,33 @@ const About = (props) => {
 
 
     return (
-        <section className={"" + props.hclass}>
+        <section className="wpo-about-section section-padding" >
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
                         <div className="about-left-image">
-                            <img src={aboutData.images.image1} alt="" />
+                            <img src='https://sailo-next.vercel.app/images/ab-1.jpg' alt="" />
                             <div className="ab-2">
-                                <img src={aboutData.images.image2} alt="" />
+                                <img src='https://sailo-next.vercel.app/images/ab-2.jpg' alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="content">
-                            <h2>{aboutData.title}</h2>
-                            <h3>{aboutData.subtitle}</h3>
-                            {aboutData.paragraphs.map((paragraph, index) => (
-                                <p key={index}>{paragraph}</p>
-                            ))}
+                            <h2>About Company</h2>
+                            <h3>We Are Solving All of <br/>Your Business Problem</h3>
+                            {/* {aboutData.paragraphs.map((paragraph, index) => ( */}
+                            <p>Our industry's business policy encompasses the strategies, guidelines, and practices that technology companies use to achieve their goals and objectives. The policies may vary depending on the company's size, market position, and competitive landscape. Commodo erat amet vitae consectetur consectetur feugiat.</p>
+                                <p >Tellus viverra eu risus ut ipsum magna sed odio elit. Sed sem purus tincidunt condimentum amet condimentum massa. Nunc vel nascetur id cras.</p>
+                    
                             <div className="ceo-content">
-                                <div className="text">
+                                {/* <div className="text">
                                     <h2>{aboutData.ceoName}</h2>
                                     <span>{aboutData.ceoTitle}</span>
-                                </div>
-                                <div className="image">
+                                </div> */}
+                                {/* <div className="image">
                                     <img src={aboutData.images.ceoImage} alt="" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
